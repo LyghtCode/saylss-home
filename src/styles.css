@@ -116,6 +116,22 @@ button {
   color: #fff;
   padding: 40px;
   pointer-events: none;
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* flex-direction: row; */
+  font-size: 33px;
+  line-height: 1.5em;
+}
+.pmndrs-menu-btm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: #fff;
+  padding: 40px;
+  pointer-events: none;
   justify-content: center;
   align-items: flex-end;
   flex-direction: row;

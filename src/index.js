@@ -16,35 +16,29 @@ function Overlay() {
         </div>
 
       </div>
-      <div className='pmndrs-menu'>
-      <div>
-          {/* <span><b>A.I. Tools for Producers and Engineers</b></span> */}
-          <a href="https://huggingface.co/SaylssHFORG" target="_blank" rel="noopener noreferrer">
+      <div className='pmndrs-menu' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <img width={300} height={100} src="/logo.png" />
+       
+      </div>
+      <div className='pmndrs-menu-btm'>
+          <a href="https://huggingface.co/SaylssHFORG" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>
             {emoji('🤫')}
           </a>
 
-        </div>
-        <div>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>
             {emoji('🕹️')}
           </a>
 
-        </div>
-        <img wdith={300} height={100} src="/logo.png" />
-
-        <div>
-
-          <a href="https://github.com/Saylss-Dev-Org" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Saylss-Dev-Org" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>
             {emoji('🐱')}
           </a>
-        </div>
-        <div>
 
           <a href="https://github.com/Saylss-Dev-Org" target="_blank" rel="noopener noreferrer">
             {emoji('💻')}
           </a>
         </div>
-      </div>
+
+
       {/* <Footer /> */}
     </>
   )
