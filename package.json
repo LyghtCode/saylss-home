@@ -13,6 +13,7 @@
     "@react-three/fiber": "7.0.26",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-easy-emoji": "^1.8.1",
     "react-scripts": "5.0.0",
     "suspend-react": "0.0.8",
     "three": "0.137.5"

@@ -8,11 +8,12 @@ export default function App(props) {
     <Canvas shadows dpr={[1, 2]} camera={{ position: [-1, 1.5, 2], fov: 25 }}>
       <spotLight position={[-4, 4, -4]} angle={0.06} penumbra={1} castShadow shadow-mapSize={[2048, 2048]} />
       <Suspense fallback={null}>
-        <Track position-z={-0.25} url="/drums.mp3" />
+        <Track position-z={-0.25} url="/no-Ls-main.mp3" />
         <Track position-z={0} url="/vocals.mp3" />
-        <Track position-z={0.25} url="/bass.mp3" />
-        <Zoom url="/bass.mp3" />
+        <Track position-z={0.25} url="/drums.mp3" />
+        <Zoom url="/drums.mp3" />
       </Suspense>
+      
       <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.025, 0]}>
         <planeGeometry />
         <shadowMaterial transparent opacity={0.15} />
