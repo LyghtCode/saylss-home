@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import ReactDOM from 'react-dom'
-import { Footer } from '@pmndrs/branding'
 import './styles.css'
 import App from './App'
 import emoji from 'react-easy-emoji'
